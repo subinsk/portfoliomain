@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../src/components/common/Footer'
 import Navbar from '../src/components/common/Navbar'
+import About from '../src/components/HomePage/About'
+import Skills from '../src/components/HomePage/Skills'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <div className='w-full flex flex-col'>
 
         <Navbar />
+        <About />
+        <Skills />
         <Footer />
       </div>
     </div>
