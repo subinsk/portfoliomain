@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from '../src/components/common/Footer'
 import Navbar from '../src/components/common/Navbar'
 import About from '../src/components/HomePage/About'
+import Projects from '../src/components/HomePage/Projects'
 import Skills from '../src/components/HomePage/Skills'
 import styles from '../styles/Home.module.css'
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Navbar />
         <About />
         <Skills />
+        <Projects />
         <Footer />
       </div>
     </div>

@@ -8,10 +8,22 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif']
       },
       colors: {
-        "custom-pink": "#FF008E",
-        "custom-maroon": "#D22779",
-        "custom-purple": "#612897",
-        "custom-navy": "#0C1E7F",
+        "custom-purple": {
+          "50": "#cad1ee",
+          "100": "#FFE9FF",
+          "200": "#BFA1D4",
+          "300": "#A14BED",
+          "400": "#842FD0",
+          "500": "#660AB4",
+          "600": "#480098",
+          "700": "#27007D",
+          "800": "#3A2A46",
+        },
+        "custom-cyan": "#00d7d7",
+        "custom-blue": {
+          "100": "#657ee5",
+        }
+
       },
     },
   },
