@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 
 import Vector from '../../images/icons/vector.svg'
 
 function About() {
+    useEffect(() => {
+        const script = document.createElement('script');
+
+        script.src = 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js';
+        script.async = true;
+
+        document.body.appendChild(script);
+
+        return () => {
+            document.body.removeChild(script);
+        }
+    }, [])
+
     return (
         <div className='bg-cover bg-[#f9fbfc] h-[35rem] w-full flex flex-row justify-center items-center'>
             <div className="flex flex-col">
@@ -18,7 +31,7 @@ function About() {
                     an idea-driven <span className='text-custom-purple-600 text-2xl font-semibold'>DEVELOPER</span>, who loves to build cool and <span className='text-custom-purple-600 text-2xl font-semibold'>INNOVATIVE</span> things.
                 </span>
             </div>
-            <Image src={Vector} alt='Vector' />
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_bp5lntrf.json" background="transparent" speed="1" style={{ padding: "0.5rem", width: "500px", height: "500px" }} loop autoplay></lottie-player>
         </div>
     )
 }
