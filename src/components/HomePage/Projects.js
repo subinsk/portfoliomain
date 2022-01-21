@@ -10,26 +10,26 @@ import Matrixio from '../../images/projects/matrixio.png'
 
 function Projects() {
     return (
-        <div className='flex flex-col w-full bg-[#f9fbfc]'>
-            <p className='flex bg-gradient-to-r from-custom-purple-300 to-custom-cyan bg-clip-text text-transparent text-5xl p-12 font-medium after:content-[""] after:relative after:inline-block after:w-2/5 after:h-[1px] after:bg-custom-purple-50 after:mt-7 after:ml-4'>Some stuffs I&apos;ve built</p>
-            <div className="flex flex-col">
+        <div id="projects" className='flex flex-col w-full bg-[#f9fbfc] p-4'>
+            <p className='flex bg-gradient-to-r from-custom-purple-300 to-custom-cyan bg-clip-text text-transparent text-4xl md:text-5xl p-6 md:p-12 font-medium after:content-[""] after:relative after:inline-block after:w-2/5 after:h-[1px] after:bg-custom-purple-50 after:mt-7 after:ml-4'>Some stuffs I&apos;ve built</p>
+            <div className="flex flex-col px-6 md:px-0 space-y-40">
 
                 {/* Extractify */}
-                <div className='flex justify-evenly pt-12 pb-36'>
-                    <div className="flex w-[35rem] h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+                <div className='flex flex-col md:flex-row md:justify-evenly pt-12'>
+                    <div className="flex md:w-[35rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Extractify} objectFit='cover' alt='Extractify' />
                     </div>
-                    <div className="flex flex-col items-end">
-                        <div className='flex flex-col items-end my-2'>
+                    <div className="flex flex-col md:items-end">
+                        <div className='flex flex-col md:items-end my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Extractify</p>
                         </div>
-                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 w-96 rounded-lg p-4">
+                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 md:w-96 rounded-lg p-4">
                             Extractify is a Multi-Class Bert-Classifier & ANN Linker Based JSON data extractor, Extractify API Takes Raw-Ocr Data & Classify & Maps Key-Value pairs which is Extremely useful in data extraction.
                         </div>
                         <div className='flex flex-col py-2'>
                             <p className='text-base font-medium text-purple-700'>Tech Stack: </p>
-                            <div className='flex'>
+                            <div className='flex flex-wrap'>
                                 <span className='text-sm text-custom-purple-400 pr-1'>ReactJS</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>Canvas</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>Flask</span>
@@ -53,20 +53,21 @@ function Projects() {
                 </div>
 
                 {/* Classroom-X */}
-                <div className='flex justify-evenly pb-36'>
+                <div className='flex flex-col-reverse md:flex-row md:justify-evenly'>
                     <div className="flex flex-col items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Classroom-X</p>
                         </div>
-                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 w-96 rounded-lg p-4">
+                        <p className="text-purple-900/95 bg-purple-100/60 md:w-96 rounded-lg p-4">
                             A Robust E-Classroom Platform With Lowest Data-Transmission Leveraging on AI for Overcoming the
                             Internet Access Inequity Our Approach Was to Take Shortest Path Instead of Fastest Vehicle , So
                             Instead of Direct Streaming We Regenerated Teacher&apos;s Screen on Student Console With Bare-Minimum
-                            Data-Streaming and Client-Side AI Monitoring Students Presence.</div>
+                            Data-Streaming and Client-Side AI Monitoring Students Presence.
+                        </p>
                         <div className='flex flex-col py-2 items-start'>
                             <p className='text-base font-medium text-purple-700'>Tech Stack: </p>
-                            <div className='flex'>
+                            <div className='flex flex-wrap'>
                                 <span className='text-sm text-custom-purple-400 px-1'>Tensorflow | BlazeFace </span>
                                 <span className='text-sm text-custom-purple-400 pr-1'>Flask</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>Python</span>
@@ -88,27 +89,27 @@ function Projects() {
                             </a>
                         </div>
                     </div>
-                    <div className="flex w-[35rem] h-[22rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+                    <div className="flex md:w-[35rem] md:h-[22rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Classroom} objectFit='cover' alt='Classroom-X' />
                     </div>
                 </div>
 
                 {/* Matrix.io */}
-                <div className='flex justify-evenly pb-36'>
-                    <div className="flex w-[42rem] h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+                <div className='flex flex-col md:flex-row md:justify-evenly'>
+                    <div className="flex md:w-[42rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Matrixio} objectFit='cover' alt='Matrix.io' />
                     </div>
-                    <div className="flex flex-col items-end">
-                        <div className='flex flex-col items-end my-2'>
+                    <div className="flex flex-col md:items-end">
+                        <div className='flex flex-col md:items-end my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Matrix.io</p>
                         </div>
-                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 w-96 rounded-lg p-4">
+                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 md:w-96 rounded-lg p-4">
                             Landing Page for Matrix.io Student Community
                         </div>
                         <div className='flex flex-col py-2 self-start'>
                             <p className='text-base font-medium text-purple-700'>Tech Stack: </p>
-                            <div className='flex'>
+                            <div className='flex flex-wrap'>
                                 <span className='text-sm text-custom-purple-400 pr-1'>ReactJS</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>SupaBase</span>
                             </div>
@@ -129,17 +130,17 @@ function Projects() {
                 </div>
 
                 {/* Portfolio*/}
-                <div className='flex justify-evenly pb-36'>
+                <div className='flex flex-col-reverse md:flex-row md:justify-evenly'>
                     <div className="flex flex-col items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Portfolio</p>
                         </div>
-                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 w-96 rounded-lg p-4">
+                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 md:w-96 rounded-lg p-4">
                             My Portfolio</div>
                         <div className='flex flex-col py-2 items-start'>
                             <p className='text-base font-medium text-purple-700'>Tech Stack: </p>
-                            <div className='flex'>
+                            <div className='flex flex-wrap'>
                                 <span className='text-sm text-custom-purple-400 px-1'>NextJS </span>
                                 <span className='text-sm text-custom-purple-400 pr-1'>TailwindCSS</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>Supabase</span>
@@ -158,29 +159,29 @@ function Projects() {
                             </a>
                         </div>
                     </div>
-                    <div className="flex w-[35rem] h-[22rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+                    <div className="flex md:w-[35rem] md:h-[22rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Classroom} objectFit='cover' alt='Portfolio' />
                     </div>
                 </div>
 
                 {/* Posmate */}
-                <div className='flex justify-evenly pb-36'>
-                    <div className="flex w-[35rem] h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+                <div className='flex flex-col md:flex-row md:justify-evenly'>
+                    <div className="flex md:w-[35rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Posmate} objectFit='cover' alt='Posmate' />
                     </div>
-                    <div className="flex flex-col items-end">
-                        <div className='flex flex-col items-end my-2'>
+                    <div className="flex flex-col md:items-end">
+                        <div className='flex flex-col md:items-end my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Posmate</p>
                         </div>
-                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 w-96 rounded-lg p-4">
+                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 md:w-96 rounded-lg p-4">
                             A Robust AI-Driven System (Web App) That Monitors : Posture (7 Body KeyPoints) Relative Distance from
                             Display Which Notifies User when his/her Posture or Relative Distance is Wrong with a Suggestion on
                             how to improve it!
                         </div>
                         <div className='flex flex-col py-2 self-start'>
                             <p className='text-base font-medium text-purple-700'>Tech Stack: </p>
-                            <div className='flex'>
+                            <div className='flex flex-wrap'>
                                 <span className='text-sm text-custom-purple-400 pr-1'>MoveNet 3.0</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>Flask</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>CI/CD Pipelines</span>
@@ -203,19 +204,19 @@ function Projects() {
                 </div>
 
                 {/* GeekBOT*/}
-                <div className='flex justify-evenly pb-36'>
+                <div className='flex flex-col-reverse md:flex-row md:justify-evenly'>
                     <div className="flex flex-col items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>GeekBOT</p>
                         </div>
-                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 w-96 rounded-lg p-4">
+                        <div className="flex flex-col text-purple-900/95 bg-purple-100/60 md:w-96 rounded-lg p-4">
                             Advance Discord Bot with all the Administrative Moderation Power, Codeforces and GitHub access, which
                             can take your Tech Server to another level.
                         </div>
                         <div className='flex flex-col py-2 items-start'>
                             <p className='text-base font-medium text-purple-700'>Tech Stack: </p>
-                            <div className='flex'>
+                            <div className='flex flex-wrap'>
                                 <span className='text-sm text-custom-purple-400 px-1'>NodeJS </span>
                                 <span className='text-sm text-custom-purple-400 pr-1'>MongoDB</span>
                                 <span className='text-sm text-custom-purple-400 px-1'>ExpressJS</span>
@@ -230,7 +231,7 @@ function Projects() {
                             </a>
                         </div>
                     </div>
-                    <div className="flex w-[22rem] h-[28rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+                    <div className="flex md:w-[22rem] md:h-[28rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={GeekBOT} objectFit='cover' alt='GeekBOT' />
                     </div>
                 </div>

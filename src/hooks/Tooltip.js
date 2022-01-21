@@ -17,7 +17,7 @@ function Tooltip({ children, tooltipText }) {
             onMouseLeave={handleMouseLeave}
         >
             <div
-                className="absolute whitespace-no-wrap bg-gradient-to-r from-purple-700 to-blue-700/80 text-white px-4 py-2 m-5 rounded flex items-center transition-all duration-150"
+                className="hidden md:block absolute whitespace-no-wrap bg-gradient-to-r from-purple-700 to-blue-700/80 text-white px-4 py-2 m-5 rounded flex items-center transition-all duration-150"
                 style={{ left: "100%", opacity: 0 }}
                 ref={tipRef}
             >
