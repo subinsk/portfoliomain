@@ -19,7 +19,7 @@ function Accomplishments() {
                         </div>
                     </a>
                 </Tooltip>
-                <div className='flex flex-col basis-4/5 items-start p-3 md:items-end my-2 p-6'>
+                <div className='flex flex-col basis-4/5 items-start p-3 md:items-end my-2 md:p-6'>
                     <p className='text-xl font-medium bg-gradient-to-r from-purple-700 to-blue-700 bg-clip-text text-transparent'>WINNER</p>
                     <p className='text-[2rem] md:text-[3rem] font-medium bg-gradient-to-r from-blue-800 to-custom-cyan bg-clip-text text-transparent'>HackJNU 2.0</p>
                 </div>

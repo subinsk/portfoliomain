@@ -15,11 +15,11 @@ function Projects() {
             <div className="flex flex-col px-6 md:px-0 space-y-40">
 
                 {/* Extractify */}
-                <div className='flex flex-col md:flex-row md:justify-evenly pt-12'>
+                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly pt-12'>
                     <div className="flex md:w-[35rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Extractify} objectFit='cover' alt='Extractify' />
                     </div>
-                    <div className="flex flex-col md:items-end">
+                    <div className="flex flex-col mt-10 md:mt-0 md:items-end">
                         <div className='flex flex-col md:items-end my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Extractify</p>
@@ -53,8 +53,8 @@ function Projects() {
                 </div>
 
                 {/* Classroom-X */}
-                <div className='flex flex-col-reverse md:flex-row md:justify-evenly'>
-                    <div className="flex flex-col items-start">
+                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
+                    <div className="flex flex-col mt-10 md:mt-0 items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Classroom-X</p>
@@ -95,11 +95,11 @@ function Projects() {
                 </div>
 
                 {/* Matrix.io */}
-                <div className='flex flex-col md:flex-row md:justify-evenly'>
+                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex md:w-[42rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Matrixio} objectFit='cover' alt='Matrix.io' />
                     </div>
-                    <div className="flex flex-col md:items-end">
+                    <div className="flex flex-col mt-10 md:mt-0 md:items-end">
                         <div className='flex flex-col md:items-end my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Matrix.io</p>
@@ -130,8 +130,8 @@ function Projects() {
                 </div>
 
                 {/* Portfolio*/}
-                <div className='flex flex-col-reverse md:flex-row md:justify-evenly'>
-                    <div className="flex flex-col items-start">
+                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
+                    <div className="flex flex-col mt-10 md:mt-0 items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Portfolio</p>
@@ -165,11 +165,11 @@ function Projects() {
                 </div>
 
                 {/* Posmate */}
-                <div className='flex flex-col md:flex-row md:justify-evenly'>
+                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex md:w-[35rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Posmate} objectFit='cover' alt='Posmate' />
                     </div>
-                    <div className="flex flex-col md:items-end">
+                    <div className="flex flex-col mt-10 md:mt-0 md:items-end">
                         <div className='flex flex-col md:items-end my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>Posmate</p>
@@ -204,8 +204,8 @@ function Projects() {
                 </div>
 
                 {/* GeekBOT*/}
-                <div className='flex flex-col-reverse md:flex-row md:justify-evenly'>
-                    <div className="flex flex-col items-start">
+                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
+                    <div className="flex flex-col mt-10 md:mt-0 items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
                             <p className='text-4xl font-medium text-purple-800'>GeekBOT</p>
