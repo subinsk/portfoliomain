@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image'
 
-import Tooltip from '../../hooks/tooltip';
+import Tooltip from '../../hooks/Tooltip';
 
-import HackJNU from '../../images/certificates/hackjnu.jpg'
+import HackJNU from '../../images/certificates/hackjnu.JPG'
 import Cicada from '../../images/certificates/cicada_certificate.jpg'
 import Octahacks from '../../images/certificates/octahacks.png'
 
