@@ -10,7 +10,7 @@ import Matrixio from '../../images/projects/matrixio.png'
 
 function Projects() {
     return (
-        <div id="projects" className='flex flex-col w-full bg-[#f9fbfc] p-4'>
+        <div id="projects" className='flex flex-col w-full bg-[#f9fbfc] px-14'>
             <p className='flex bg-gradient-to-r from-custom-purple-300 to-custom-cyan bg-clip-text text-transparent text-4xl md:text-5xl p-6 md:p-12 font-medium after:content-[""] after:relative after:inline-block after:w-2/5 after:h-[1px] after:bg-custom-purple-50 after:mt-7 after:ml-4'>Some stuffs I&apos;ve built</p>
             <div className="flex flex-col px-6 md:px-0 space-y-40">
 
