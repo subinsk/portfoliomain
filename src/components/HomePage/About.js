@@ -18,7 +18,7 @@ function About() {
     }, [])
 
     return (
-        <div id="about" className='bg-cover bg-[#f9fbfc] h-[35rem] w-full flex flex-col px-20 md:pt-16 pt-28 md:flex-row justify-center items-center'>
+        <div id="about" className='bg-cover bg-[#f9fbfc] h-[35rem] w-full flex flex-col px-20 md:pt-16 pt-28 md:flex-row'>
             <div className="flex flex-col">
                 <span className='font-medium text-purple-700 text-lg'>
                     Hey There! I am
@@ -27,7 +27,7 @@ function About() {
                     Subin
                 </span>
                 <span className='text-purple-500 font-base'>
-                    an idea-driven <span className='text-purple-600 text-medium md:text-xl font-semibold'>DEVELOPER</span>, who loves to build cool and <span className='text-purple-600 text-medium md:text-xl font-semibold'>INNOVATIVE</span> things.
+                    an idea-driven <span className='text-purple-600 text-medium md:text-xl font-semibold'>DEVELOPER</span>, who loves to build <span className='text-purple-600 text-medium md:text-xl font-semibold'>COOL</span> and <span className='text-purple-600 text-medium md:text-xl font-semibold'>INNOVATIVE</span> things.
                 </span>
             </div>
             <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_bp5lntrf.json" background="transparent" speed="1" style={{ padding: "0.5rem" }} loop autoplay></lottie-player>

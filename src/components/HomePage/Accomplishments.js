@@ -8,9 +8,9 @@ import Cicada from '../../images/certificates/cicada_certificate.jpg'
 import Octahacks from '../../images/certificates/octahacks.png'
 
 function Accomplishments() {
-    return <div id="accomplishments" className='flex flex-col w-full px-12 mb-24'>
-        <p className='flex bg-gradient-to-r from-custom-purple-300 to-custom-cyan bg-clip-text text-transparent text-2xl md:text-5xl py-10 md:p-12 font-medium after:content-[""] after:relative after:inline-block after:w-2/5 after:h-[1px] after:bg-custom-purple-50 after:mt-12 md:after:mt-7 after:ml-4'>My Accomplishments till now</p>
-        <div className='flex flex-col items-center space-y-24'>
+    return <div id="accomplishments" className='flex flex-col w-full mb-24'>
+        <p className='flex bg-gradient-to-r from-custom-purple-300 to-custom-cyan bg-clip-text text-transparent p-6 text-3xl md:text-5xl py-10 md:p-12 font-medium after:content-[""] after:relative after:inline-block md:after:w-2/5 after:w-0 after:h-[1px] after:bg-custom-purple-50 after:mt-12 md:after:mt-7 after:ml-4'>My Accomplishments till now</p>
+        <div className='flex flex-col items-center space-y-24  px-12'>
             <div className='flex flex-col border-0 rounded-md shadow-lg bg-blue-100/30 md:flex-row md:justify-evenly md:max-w-[48.2rem]'>
                 <Tooltip tooltipText="Click to view Certificate">
                     <a href="https://www.dropbox.com/s/by789h6jrejo3is/HackJNU%202.0%20%3A%20Subin%20S%20K%20Cerificate.pdf?dl=0" target="_blank" rel="noopener noreferrer">

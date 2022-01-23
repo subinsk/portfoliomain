@@ -2,7 +2,7 @@ import React from 'react';
 
 function Sociallinks({ sticky }) {
     return (
-        <ul className={`flex flex-col ${sticky ? 'fixed top-32' : 'absolute'}  right-5 space-y-8 after:content-[''] after:relative after:inline-block after:w-[1px] after:h-[15rem] after:bg-custom-purple-50 after:mt-6 md:after:mt-7 after:ml-2`}>
+        <ul className={`flex flex-col ${sticky ? 'fixed top-32' : 'absolute'}  right-3 space-y-8 after:content-[''] after:relative after:inline-block after:w-[1px] after:h-[15rem] after:bg-custom-purple-50 after:mt-6 md:after:mt-7 after:ml-2`}>
             <li>
                 <a href="https://github.com/subinsk" target="_blank" rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#480098" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 hover:stroke-purple-700/60">
