@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 
 import Footer from '../src/components/common/Footer'
 import Navbar from '../src/components/common/Navbar'
@@ -24,8 +25,17 @@ export default function Home() {
     else {
       setSticky(false)
     }
-    console.log(offset, ' ', bottom.offsetTop)
   }, [offset])
+
+
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-JGLK2H7L22";
+    script.async = true;
+
+    document.head.appendChild(script);
+  }, [])
 
   return (
     <div className={styles.container}>
@@ -33,6 +43,21 @@ export default function Home() {
         <title>Portfolio</title>
         <meta name="description" content="Subin S K Portfolio" />
         <link rel="icon" href="/favicon.ico" />
+        <script async
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-JGLK2H7L22');
+                  `,
+          }}
+        >
+        </script>
+        <>
+          <Script src="https://www.googletagmanager.com/gtag/js?id=G-JGLK2H7L22" strategy="beforeInteractive" />
+        </>
       </Head>
       <div className='w-full flex flex-col'>
 
