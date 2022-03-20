@@ -31,6 +31,12 @@ function Navbar() {
             </div>
             <MobileNavbar showMobNavbar={mobNavbar} mobNavbarHandler={mobileNavbarHandler} />
             <div className='hidden md:flex justify-between items-center'>
+                <a href="https://subinsk.hashnode.dev/" target="_blank" rel="noopener noreferrer">
+                    <button className='text-purple-700 text-[16px] mx-2 hover:text-custom-purple-700'>Blog</button>
+                </a>
+                <a href="https://www.matrixio.tech/" target="_blank" rel="noopener noreferrer">
+                    <button className='text-purple-700 text-[16px] mx-2 hover:text-custom-purple-700'>Community</button>
+                </a>
                 <a href="#about">
                     <button className='text-purple-700 text-[16px] mx-2 hover:text-custom-purple-700'>About</button>
                 </a>

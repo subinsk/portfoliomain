@@ -8,6 +8,12 @@ function MobileNavbar({ showMobNavbar, mobNavbarHandler }) {
         </svg>
         <div className='pt-28'>
             <div className='flex flex-col justify-between items-center space-y-16'>
+                <a onClick={() => mobNavbarHandler(false)} href="https://subinsk.hashnode.dev/" target="_blank" rel="noopener noreferrer">
+                    <button className='text-purple-700 text-4xl mx-2 hover:text-custom-purple-600'>Blog</button>
+                </a>
+                <a onClick={() => mobNavbarHandler(false)} href="https://www.matrixio.tech/" target="_blank" rel="noopener noreferrer">
+                    <button className='text-purple-700 text-4xl mx-2 hover:text-custom-purple-600'>Community</button>
+                </a>
                 <a onClick={() => mobNavbarHandler(false)} href="#about">
                     <button className='text-purple-700 text-4xl mx-2 hover:text-custom-purple-600'>About</button>
                 </a>
