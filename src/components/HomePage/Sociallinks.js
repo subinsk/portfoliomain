@@ -36,7 +36,7 @@ function Sociallinks({ sticky }) {
             </li>
 
             <li>
-                <a href="https://www.linkedin.com/in/subin-s-k-9b767219a/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/subinsk/" target="_blank" rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#480098" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 hover:stroke-purple-700/60">
                         <title>LinkedIn</title>
                         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
