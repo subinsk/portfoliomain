@@ -60,7 +60,6 @@ export default function Home() {
         </>
       </Head>
       <div className='w-full flex flex-col'>
-
         <Navbar />
         <About />
         <Skills />

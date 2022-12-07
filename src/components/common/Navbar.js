@@ -34,7 +34,7 @@ function Navbar() {
                 <a href="https://subinsk.hashnode.dev/" target="_blank" rel="noopener noreferrer">
                     <button className='text-purple-700 text-[16px] mx-2 hover:text-custom-purple-700'>Blog</button>
                 </a>
-                <a href="https://www.matrixio.tech/" target="_blank" rel="noopener noreferrer">
+                <a href="https://gdsc.community.dev/college-of-technology-and-engineering/" target="_blank" rel="noopener noreferrer">
                     <button className='text-purple-700 text-[16px] mx-2 hover:text-custom-purple-700'>Community</button>
                 </a>
                 <a href="#about">

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Image from 'next/image'
-
+import { motion } from 'framer-motion'
 import Vector from '../../images/icons/vector.svg'
 
 function About() {

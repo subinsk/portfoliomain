@@ -8,6 +8,7 @@ import GeekBOT from '../../images/projects/geekbot.jpg'
 import Matrixio from '../../images/projects/matrixio.png'
 import Portfolio from '../../images/projects/portfolio.png'
 import Lostrace from '../../images/projects/lostrace.png'
+import Furnerio from '../../images/projects/furnerio.png'
 
 function Projects() {
     return (
@@ -15,8 +16,43 @@ function Projects() {
             <p className='flex bg-gradient-to-r from-custom-purple-300 to-custom-cyan bg-clip-text text-transparent text-3xl md:text-5xl p-6 px-10 md:p-12 font-medium after:content-[""] after:relative after:inline-block after:w-2/5 after:h-[1px] after:bg-custom-purple-50 after:mt-7 after:ml-4'>Some stuffs I&apos;ve built</p>
             <div className="flex flex-col px-14 md:px-0 space-y-40">
 
+                {/* Furnerio */}
+                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
+                    <div className="flex flex-col mt-10 md:mt-0 items-start">
+                        <div className='flex flex-col align-left my-2'>
+                            <p className='text-base text-purple-700'>Project</p>
+                            <p className='text-4xl font-medium text-purple-800'>Furnerio</p>
+                        </div>
+                        <p className="text-purple-900/95 bg-purple-100/60 md:w-96 rounded-lg p-4">
+                            E-Commerce store, integrated with Product Information Management admin panel to manage the whole e-commerce infrastructure.
+                        </p>
+                        <div className='flex flex-col py-2 items-start'>
+                            <p className='text-base font-medium text-purple-700'>Tech Stack: </p>
+                            <div className='flex flex-wrap'>
+                                <span className='text-sm text-custom-purple-400 px-1'>Next.js</span>
+                                <span className='text-sm text-custom-purple-400 px-1'>Node.js</span>
+                                <span className='text-sm text-custom-purple-400 px-1'>TailwindCSS</span>
+                                <span className='text-sm text-custom-purple-400 px-1'>Ant Design</span>
+                                <span className='text-sm text-custom-purple-400 px-1'>Firebase</span>
+                                <span className='text-sm text-custom-purple-400 px-1'>MongoDB</span>
+                                <span className='text-sm text-custom-purple-400 px-1'>Vercel</span>
+                            </div>
+                        </div>
+                        <div className='flex space-x-4 py-2'>
+                            <a href="https://www.furnerio.com/" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-700 duration-200 hover:text-custom-cyan" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="flex md:w-[35rem] md:h-[22rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+                        <Image src={Furnerio} objectFit='contain' alt='furnerio' />
+                    </div>
+                </div>
+
                 {/* Lostrace */}
-                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly pt-12'>
+                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly pt-12'>
                     <div className="flex md:w-[40rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Lostrace} objectFit='contain' alt='Lostrace' />
                     </div>
@@ -51,7 +87,7 @@ function Projects() {
                 </div>
 
                 {/* Classroom-X */}
-                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
+                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex flex-col mt-10 md:mt-0 items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
@@ -93,7 +129,7 @@ function Projects() {
                 </div>
 
                 {/* Matrix.io */}
-                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
+                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex md:w-[42rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Matrixio} objectFit='cover' alt='Matrix.io' />
                     </div>
@@ -128,7 +164,7 @@ function Projects() {
                 </div>
 
                 {/* Portfolio*/}
-                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
+                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex flex-col mt-10 md:mt-0 items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
@@ -163,7 +199,7 @@ function Projects() {
                 </div>
 
                 {/* Posmate */}
-                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
+                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex md:w-[35rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Posmate} objectFit='cover' alt='Posmate' />
                     </div>
@@ -202,7 +238,7 @@ function Projects() {
                 </div>
 
                 {/* GeekBOT*/}
-                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
+                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex flex-col mt-10 md:mt-0 items-start">
                         <div className='flex flex-col align-left my-2'>
                             <p className='text-base text-purple-700'>Project</p>
@@ -235,7 +271,7 @@ function Projects() {
                 </div>
 
                 {/* Extractify */}
-                <div className='flex flex-col flex-wrap md:flex-row md:justify-evenly'>
+                <div className='flex flex-col-reverse flex-wrap md:flex-row md:justify-evenly'>
                     <div className="flex md:w-[35rem] md:h-[20rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                         <Image src={Extractify} objectFit='cover' alt='Extractify' />
                     </div>
