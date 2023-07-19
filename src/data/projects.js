@@ -19,7 +19,7 @@ export const projects = [
   {
     name: "Knowledge Sharing Platform",
     description:
-      "An Open Source Project to share study notes and reviews for professors and courses",
+      "An Open Source Project to share study notes and reviews for professors and courses.",
     techStack: [
       "Next.js",
       "Node.js",
@@ -45,7 +45,7 @@ export const projects = [
   {
     name: "Classroom-X",
     description:
-      "A Robust E-Classroom Platform With Lowest Data-Transmission Leveraging on AI for Overcoming the Internet Access Inequity Our Approach Was to Take Shortest Path Instead of Fastest Vehicle , So Instead of Direct Streaming We Regenerated Teacher&apos;s Screen on Student Console With Bare-Minimum Data-Streaming and Client-Side AI Monitoring Students Presence.",
+      "A robust e-classroom platform with lowest data-transmission, leveraging AI to overcome internet access inequity. Our approach was to take the shortest path instead of the fastest vehicle, so instead of direct streaming, we regenerated teacher's screen on student console with bare-minimum data-streaming and client-side AI monitoring students' presence.",
     techStack: [
       "Tensorflow | BlazeFace",
       "Flask",
@@ -60,7 +60,7 @@ export const projects = [
   },
   {
     name: "Matrix.io",
-    description: " Landing Page for Matrix.io Student Community",
+    description: " Landing Page for Matrix.io Student Community.",
     techStack: ["ReactJS", "SupaBase"],
     github: "https://github.com/subinsk/matrixio",
     website: "https://www.matrixio.tech/",
@@ -69,7 +69,7 @@ export const projects = [
   {
     name: "Posmate",
     description:
-      "A Robust AI-Driven System (Web App) That Monitors : Posture (7 Body KeyPoints) Relative Distance from Display Which Notifies User when his/her Posture or Relative Distance is Wrong with a Suggestion on how to improve it!",
+      "A robust AI-driven system (web app) that monitors posture (7 body keypoints) and relative distance from the display. It notifies the user when their posture or relative distance is incorrect, providing suggestions on how to improve it!",
     techStack: ["MoveNet 3.0", "Flask", "HTML/CSS/JS"],
     github: "https://github.com/subinsk/Posmate",
     website: "https://posmate-io.herokuapp.com/",
@@ -87,7 +87,7 @@ export const projects = [
   {
     name: "Extractify",
     description:
-      "Extractify is a Multi-Class Bert-Classifier & ANN Linker Based JSON data extractor, Extractify API Takes Raw-Ocr Data & Classify & Maps Key-Value pairs which is Extremely useful in data extraction.",
+      "Extractify is a multi-class BERT classifier & ANN linker based JSON data extractor. Extractify API takes raw OCR data, classifies, and maps key-value pairs, which is extremely useful in data extraction.",
     techStack: [
       "ReactJS",
       "Canvas",
