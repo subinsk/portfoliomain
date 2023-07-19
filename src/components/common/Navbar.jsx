@@ -60,6 +60,11 @@ export const Navbar = () => {
             About
           </button>
         </a>
+        <a href="#experience">
+          <button className="text-purple-700 text-[16px] mx-2 hover:text-custom-purple-700">
+            Experience
+          </button>
+        </a>
         <a href="#projects">
           <button className="text-purple-700 text-[16px] mx-2 hover:text-custom-purple-700">
             Projects

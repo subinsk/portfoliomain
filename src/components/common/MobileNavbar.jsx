@@ -49,6 +49,11 @@ export const MobileNavbar = ({ showMobNavbar, mobNavbarHandler }) => {
               About
             </button>
           </a>
+          <a onClick={() => mobNavbarHandler(false)} href="#experience">
+            <button className="text-purple-700 text-4xl mx-2 hover:text-custom-purple-600">
+              Experience
+            </button>
+          </a>
           <a onClick={() => mobNavbarHandler(false)} href="#projects">
             <button className="text-purple-700 text-4xl mx-2 hover:text-custom-purple-600">
               Projects
