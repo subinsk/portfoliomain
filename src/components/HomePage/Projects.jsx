@@ -10,7 +10,7 @@ export const Projects = () => {
       _id="projects"
       bgVariant="primary"
     >
-      <div className="flex flex-col px-14 gap-10 md:gap-40">
+      <div className="flex flex-col px-6 md:px-14 gap-10 md:gap-40">
         {projects.map((project, index) => {
           return (
             <div
@@ -26,10 +26,10 @@ export const Projects = () => {
                     {project.name}
                   </p>
                 </div>
-                <p className="text-purple-900/95 bg-purple-100/60 md:w-4/5 rounded-lg p-4 text-sm">
+                <p className="text-purple-900/95 bg-purple-100/60 w-11/12 rounded-lg p-4 text-sm">
                   {project.description}
                 </p>
-                <div className="flex gap-2 flex-wrap md:w-4/5">
+                <div className="flex gap-2 flex-wrap w-10/12 md:w-4/5">
                   {project.techStack.map((tech, idx) => {
                     return (
                       <p
@@ -91,7 +91,7 @@ export const Projects = () => {
                   )}
                 </div>
               </div>
-              <div className="flex md:basis-1/2 md:h-[22rem] overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+              <div className="flex md:basis-1/2 md:h-[22rem] mr-5 md:mr-0 overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                 <Image
                   src={project.image}
                   objectFit="contain"

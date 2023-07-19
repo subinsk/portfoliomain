@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Furnerio",
     description:
-      "E-Commerce store, integrated with Product Information Management admin panel to manage the whole e-commerce infrastructure.",
+      "E-Commerce store with seamless integration of a powerful Product Information Management admin panel. This system efficiently manages the entire E-Commerce infrastructure, streamlining product data handling and enhancing overall user experience for online shoppers.",
     techStack: [
       "Next.js",
       "Node.js",
@@ -19,7 +19,7 @@ export const projects = [
   {
     name: "Knowledge Sharing Platform",
     description:
-      "An Open Source Project to share study notes and reviews for professors and courses.",
+      "An Open Source Project fostering an online platform to exchange comprehensive study materials and course evaluations, empowering students and educators to enhance learning experiences through the seamless sharing of academic insights and reviews.",
     techStack: [
       "Next.js",
       "Node.js",
@@ -36,7 +36,7 @@ export const projects = [
   {
     name: "Lostrace",
     description:
-      "Reverse Image Search based Tracking App with efficient Flex-Search Algorithm on WCD Lost-Child Data.",
+      "Reverse Image Search based Tracking App that utilizes an efficient Flex-Search Algorithm to locate missing children using the WCD Lost-Child Data. Empowering rapid and accurate identification, aiding in reuniting families.",
     techStack: ["ReactJS", "Flask", "Heroku", "Vercel"],
     github: "https://github.com/ML9-FORCES/Lostrace-Frontend",
     website: "https://lostrace.vercel.app/",
@@ -45,7 +45,7 @@ export const projects = [
   {
     name: "Classroom-X",
     description:
-      "A robust e-classroom platform with lowest data-transmission, leveraging AI to overcome internet access inequity. Our approach was to take the shortest path instead of the fastest vehicle, so instead of direct streaming, we regenerated teacher's screen on student console with bare-minimum data-streaming and client-side AI monitoring students' presence.",
+      "Innovative e-classroom platform, prioritizing equity by leveraging AI and minimal data-transmission. Reconstructed teacher's screen on student consoles with client-side AI, ensuring seamless learning and real-time presence monitoring, overcoming internet access disparities.",
     techStack: [
       "Tensorflow | BlazeFace",
       "Flask",
@@ -60,7 +60,8 @@ export const projects = [
   },
   {
     name: "Matrix.io",
-    description: " Landing Page for Matrix.io Student Community.",
+    description:
+      "Landing Page for Matrix.io Student Community showcasing its interactive features, resources, events, and collaboration opportunities. Engaging design, seamless user experience, and tailored content will foster a vibrant platform for students to connect and excel in their academic journey.",
     techStack: ["ReactJS", "SupaBase"],
     github: "https://github.com/subinsk/matrixio",
     website: "https://www.matrixio.tech/",
@@ -78,7 +79,7 @@ export const projects = [
   {
     name: "GeekBot",
     description:
-      "Advance Discord Bot with all the Administrative Moderation Power, Codeforces and GitHub access, which can take your Tech Server to another level.",
+      "Advance Discord Bot empowered with top-notch Administrative Moderation capabilities, seamless integration with Codeforces and GitHub, it elevates your server to new heights of efficiency and collaboration.",
     techStack: ["Node.js", "MongoDB", "ExpressJS", "DiscordJS"],
     github: "https://github.com/subinsk/geekbot",
     website: "",
