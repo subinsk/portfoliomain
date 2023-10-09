@@ -5,8 +5,8 @@ export const experiences = [
     from: "April 2023",
     to: "Oct 2023",
     description:
-      "In this role, I was responsible for the development and implementation of React components, incorporating the UI designs crafted in Figma. To ensure smooth data flow and synchronization between various components, I proficiently managed Redux stores for efficient state management. Additionally, I successfully integrated database collection listeners in the frontend, employing cutting-edge technologies to facilitate real-time updates and seamless synchronization of user data with the backend system.",
-    technologies: ["React", "Redux"],
+      "I developed and implemented React components for a desktop application with over 1 million users. I efficiently managed Redux stores to ensure smooth data flow and synchronization between components. Additionally, I implemented Jest test cases, achieving a high code coverage of 97%. To streamline testing and enhance component development efficiency, I integrated Storybook for component development.",
+    technologies: ["React", "Redux", "Jest", "Storybook"],
   },
   {
     company: "9AI",
