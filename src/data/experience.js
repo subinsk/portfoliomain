@@ -2,8 +2,8 @@ export const experiences = [
   {
     company: "Cypherock",
     title: "Software Development Engineer Intern",
-    from: "May 2023",
-    to: "Present",
+    from: "April 2023",
+    to: "Oct 2023",
     description:
       "In this role, I was responsible for the development and implementation of React components, incorporating the UI designs crafted in Figma. To ensure smooth data flow and synchronization between various components, I proficiently managed Redux stores for efficient state management. Additionally, I successfully integrated database collection listeners in the frontend, employing cutting-edge technologies to facilitate real-time updates and seamless synchronization of user data with the backend system.",
     technologies: ["React", "Redux"],
