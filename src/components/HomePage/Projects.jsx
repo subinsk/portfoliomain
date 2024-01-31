@@ -91,10 +91,13 @@ export const Projects = () => {
                   )}
                 </div>
               </div>
-              <div className="flex md:basis-1/2 md:h-[22rem] mr-5 md:mr-0 overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
+              <div className="block relative md:basis-1/2 md:h-[22rem] mr-5 md:mr-0 overflow-hidden duration-700 rounded-lg shadow-xl hover:shadow-2xl">
                 <Image
                   src={project.image}
-                  objectFit="contain"
+                  fill
+                  style={{
+                    objectFit: "contain",
+                  }}
                   alt={project.name}
                 />
               </div>

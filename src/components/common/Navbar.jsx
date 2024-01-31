@@ -30,7 +30,7 @@ export const Navbar = () => {
       } top-0 flex justify-between items-center h-16 p-2 px-7 w-full border-0`}
     >
       <div id="logo" className="pt-4">
-        <Image height={120} width={300} src={Logo} alt="logo" />
+        <Image height={120} width={200} src={Logo} alt="logo" />
       </div>
       <MobileNavbar
         showMobNavbar={mobNavbar}
