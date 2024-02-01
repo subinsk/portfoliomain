@@ -36,7 +36,7 @@ export const Skills: FC = () => {
 };
 
 function importAll(r: __WebpackModuleApi.RequireContext) {
-  let images = {};
+  let images: any = {};
   r.keys().map((item: string, index: any) => {
     images[item.replace("./", "") as string] = r(item);
   });
