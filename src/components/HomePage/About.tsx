@@ -1,6 +1,7 @@
 "use client";
 
 import React, { FC, useEffect } from "react";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export const About: FC = () => {
   useEffect(() => {
@@ -17,10 +18,20 @@ export const About: FC = () => {
     };
   }, []);
 
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData:
+      "https://assets9.lottiefiles.com/packages/lf20_bp5lntrf.json",
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <div
       id="about"
-      className="bg-cover font-libre bg-[#f9fbfc] h-[35rem] w-full flex flex-col px-20 md:pt-16 pt-28 md:flex-row"
+      className="bg-cover font-libre bg-[#f9fbfc] h-[35rem] w-full flex flex-col md:px-20 px-10 md:pt-16 pt-28 md:flex-row"
     >
       <div className="flex flex-col">
         <span className="font-medium text-purple-700 text-lg md:pt-20">
@@ -33,14 +44,14 @@ export const About: FC = () => {
           DEVELOPER &middot; COMMUNITY CONTRIBUTOR
         </span>
       </div>
-      <lottie-player
-        src="https://assets9.lottiefiles.com/packages/lf20_bp5lntrf.json"
-        background="transparent"
-        speed="1"
-        style={{ padding: "0.5rem" }}
-        loop
-        autoplay
-      ></lottie-player>
+      <div className="md:mx-auto">
+        <Player
+          src="https://assets9.lottiefiles.com/packages/lf20_bp5lntrf.json"
+          autoplay
+          loop
+          speed={1}
+        />
+      </div>
     </div>
   );
 };
