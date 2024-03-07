@@ -3,7 +3,7 @@ export const experiences = [
     company: "Hireintel",
     title: "Full Stack Developer Intern",
     from: "Oct 2023",
-    to: "Jan 2024",
+    to: "Feb 2024",
     description:
       "I developed and maintained a responsive and dynamic dashboard using React, Next.js, and Material-UI (MUI), created and optimized Python-based automated tasks to improve backend efficiency and enable email automation, enhanced the user interface (UI) experience for candidates interacting with AI-driven elements, and contributed to the development of AI-driven interview result analysis features.",
     technologies: ["React", "Next.js", "MUI", "Python", "Redux"],
