@@ -1,5 +1,22 @@
 export const projects = [
   {
+    name: "The Periodical",
+    description:
+      "Developed a web app and admin panel for managing newspaper article gists, featuring CRUD, authentication, rich text editing, search, and cloud deployment.",
+    techStack: [
+      "Next.js",
+      "Node.js",
+      "TailwindCSS",
+      "Supabase",
+      "Shadcn UI",
+      "PostgreSQL",
+      "Vercel",
+    ],
+    github: "https://github.com/subinsk/the-periodical",
+    website: "https://theperiodical-web.vercel.app/",
+    image: "/images/projects/the-periodical.png",
+  },
+  {
     name: "Furnerio",
     description:
       "E-Commerce store with seamless integration of a powerful Product Information Management admin panel. This system efficiently manages the entire E-Commerce infrastructure, streamlining product data handling and enhancing overall user experience for online shoppers.",
@@ -13,8 +30,8 @@ export const projects = [
       "Vercel",
     ],
     github: "",
-    website: "https://www.furnerio.com/",
-    image: require("../images/projects/furnerio.png"),
+    website: "https://www.furnerio.vercel.app/",
+    image: "/images/projects/furnerio.png",
   },
   {
     name: "Knowledge Sharing Platform",
@@ -31,7 +48,7 @@ export const projects = [
     ],
     github: "https://github.com/OpenLake/Knowledge-Sharing-Platform",
     website: "https://knowledge-sharing-platform.vercel.app/",
-    image: require("../images/projects/ksp.png"),
+    image: "/images/projects/ksp.png",
   },
   {
     name: "Lostrace",
@@ -40,7 +57,7 @@ export const projects = [
     techStack: ["ReactJS", "Flask", "Heroku", "Vercel"],
     github: "https://github.com/ML9-FORCES/Lostrace-Frontend",
     website: "https://lostrace.vercel.app/",
-    image: require("../images/projects/lostrace.png"),
+    image: "/images/projects/lostrace.png",
   },
   {
     name: "Classroom-X",
@@ -56,7 +73,7 @@ export const projects = [
     ],
     github: "https://github.com/Garvit9000c/ML9-FORCES_CLASSROOM-X",
     website: "https://classroom-x.herokuapp.com/",
-    image: require("../images/projects/classroom.jpg"),
+    image: "/images/projects/classroom.jpg",
   },
   {
     name: "Matrix.io",
@@ -65,7 +82,7 @@ export const projects = [
     techStack: ["ReactJS", "SupaBase"],
     github: "https://github.com/subinsk/matrixio",
     website: "https://matrixiocommunity.vercel.app/",
-    image: require("../images/projects/matrixio.png"),
+    image: "/images/projects/matrixio.png",
   },
   {
     name: "Posmate",
@@ -74,7 +91,7 @@ export const projects = [
     techStack: ["MoveNet 3.0", "Flask", "HTML/CSS/JS"],
     github: "https://github.com/subinsk/Posmate",
     website: "https://posmate-io.herokuapp.com/",
-    image: require("../images/projects/posmate.jpg"),
+    image: "/images/projects/posmate.jpg",
   },
   {
     name: "GeekBot",
@@ -83,7 +100,7 @@ export const projects = [
     techStack: ["Node.js", "MongoDB", "ExpressJS", "DiscordJS"],
     github: "https://github.com/subinsk/geekbot",
     website: "",
-    image: require("../images/projects/geekbot.jpg"),
+    image: "/images/projects/geekbot.jpg",
   },
   {
     name: "Extractify",
@@ -98,6 +115,6 @@ export const projects = [
     ],
     github: "https://github.com/ML9-FORCES/extractify-frontend",
     website: "https://extractifynow.netlify.app/",
-    image: require("../images/projects/extractify.png"),
+    image: "/images/projects/extractify.png",
   },
 ];
