@@ -12,8 +12,8 @@ export const projects = [
       "PostgreSQL",
       "Vercel",
     ],
-    github: "https://github.com/subinsk/the-periodical",
-    website: "https://theperiodical-web.vercel.app/",
+    github: "https://github.com/subinsk/theperiodical-admin",
+    website: "https://theperiodical-admin.vercel.app/",
     image: "/images/projects/the-periodical.png",
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
       "Vercel",
     ],
     github: "",
-    website: "https://www.furnerio.vercel.app/",
+    website: "https://www.furnerio-admin.vercel.app/",
     image: "/images/projects/furnerio.png",
   },
   {
