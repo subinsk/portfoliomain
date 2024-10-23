@@ -1,7 +1,7 @@
 export const experiences = [
   {
     company: "Hireintel",
-    title: "Full Stack Developer Intern",
+    title: "Full Stack Developer",
     from: "Oct 2023",
     to: "Present",
     description:
