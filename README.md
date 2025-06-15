@@ -31,6 +31,33 @@
    npm start
    ```
 
+## ✨ Features
+
+### Hire Me Section
+
+A dynamic skills-based hiring interface that allows recruiters to:
+
+- **Search and select skills** using an interactive dropdown with categorized options
+- **View popular skills** as suggested pills for quick selection
+- **Get targeted showcase** of how selected skills were used in real projects and jobs
+- **Navigate to detailed view** showing highlighted skill usage across experience and projects
+
+### Skills Showcase Page
+
+Dedicated page (`/skills-showcase`) that displays:
+
+- **Professional Experience**: Job descriptions with highlighted skill usage
+- **Projects**: Project descriptions and tech stacks with skill emphasis
+- **Smart Highlighting**: Automatic text highlighting where selected skills appear
+- **Mobile Responsive**: Works seamlessly across all device sizes
+
+### Technical Implementation
+
+- **React Components** with styled-components for consistent theming
+- **GraphQL Integration** for dynamic content fetching
+- **Local Analytics** tracking for popular skill searches
+- **SEO Optimized** with proper meta tags and structured data
+
 ## 🚀 Building and Running for Production
 
 1. Generate a full static production build

@@ -44,6 +44,33 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .hire-me-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: linear-gradient(
+      135deg,
+      rgba(100, 255, 218, 0.05) 0%,
+      rgba(100, 255, 218, 0.02) 100%
+    );
+    border: 1px solid rgba(100, 255, 218, 0.2);
+    border-radius: var(--border-radius);
+    max-width: 540px;
+  }
+
+  .hire-me-text {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+  }
+
+  .hire-me-link {
+    ${({ theme }) => theme.mixins.smallButton};
+    display: inline-block;
+    text-decoration: none;
+  }
 `;
 
 const Hero = () => {
@@ -71,17 +98,18 @@ const Hero = () => {
       </p>
     </>
   );
-  // const five = (
-  //   <a
-  //     className="email-link"
-  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
-  //     target="_blank"
-  //     rel="noreferrer">
-  //     Check out my course!
-  //   </a>
-  // );
+  const five = (
+    <div className="hire-me-section">
+      <p className="hire-me-text">
+        Cut through the clutter! Want to see how your job requirements align with my expertise?
+      </p>
+      <a className="hire-me-link" href="/#hire-me">
+        Find Your Perfect Match
+      </a>
+    </div>
+  );
 
-  const items = [one, two, three, four];
+  const items = [one, two, three, four, five];
 
   return (
     <StyledHeroSection>
