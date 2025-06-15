@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { navigate } from 'gatsby';
 import styled from 'styled-components';
 import { Icon } from '@iconify/react';
@@ -566,7 +566,9 @@ const HireMe = () => {
   };
 
   const handleSearch = () => {
-    if (selectedSkills.length === 0) {return;}
+    if (selectedSkills.length === 0) {
+      return;
+    }
 
     const skillNames = selectedSkills.map(skill => skill.name);
 
