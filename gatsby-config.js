@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Subin S K is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://subinsk.vercel.app', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.png', // Dynamically generated OG image - updated on each build
     twitterUsername: '@SubinSK6',
   },
   plugins: [

@@ -13,14 +13,20 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run generate-og && gatsby build",
+    "build:vercel": "npm run generate-og:vercel && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "generate-og": "node scripts/generate-og-puppeteer.js",
+    "generate-og:dev": "node scripts/generate-og-dev.js",
+    "generate-og:vercel": "node scripts/generate-og-vercel.js",
+    "capture-live-og": "node scripts/capture-live-og.js",
+    "prebuild": "npm run generate-og"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -54,6 +60,7 @@
     "lodash": "^4.17.19",
     "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
+    "puppeteer": "^24.10.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
