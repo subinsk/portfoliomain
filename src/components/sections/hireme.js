@@ -244,22 +244,24 @@ const StyledSkillPill = styled.div`
   user-select: none;
   opacity: ${props => (props.disabled ? 0.8 : 1)};
   transform: ${props => (props.disabled ? 'scale(0.95)' : 'scale(1)')};
-  min-height: 36px; /* Touch-friendly minimum height */
+  min-height: 44px; /* Touch-friendly minimum height */
 
   @media (max-width: 768px) {
-    padding: 6px 10px;
-    gap: 4px;
+    padding: 10px 16px;
+    gap: 6px;
     font-size: var(--fz-xs);
-    min-height: 32px;
-    min-width: 50px;
+    min-height: 48px;
+    min-width: 90px;
+    border-radius: 24px;
   }
 
   @media (max-width: 480px) {
-    padding: 4px 8px;
-    gap: 3px;
-    font-size: var(--fz-xxs);
-    min-height: 28px;
-    min-width: 40px;
+    padding: 12px 18px;
+    gap: 6px;
+    font-size: var(--fz-xs);
+    min-height: 56px;
+    min-width: 110px;
+    border-radius: 28px;
   }
 
   &:hover {
@@ -298,15 +300,15 @@ const StyledSkillPill = styled.div`
     flex-shrink: 0;
 
     @media (max-width: 768px) {
-      width: 20px;
-      height: 20px;
-      margin-left: 2px;
+      width: 32px;
+      height: 32px;
+      margin-left: 4px;
     }
 
     @media (max-width: 480px) {
-      width: 18px;
-      height: 18px;
-      margin-left: 2px;
+      width: 36px;
+      height: 36px;
+      margin-left: 6px;
     }
 
     &:hover {
@@ -328,13 +330,13 @@ const StyledSkillPill = styled.div`
       height: 20px;
 
       @media (max-width: 768px) {
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
       }
 
       @media (max-width: 480px) {
-        width: 14px;
-        height: 14px;
+        width: 22px;
+        height: 22px;
       }
     }
   }
@@ -348,11 +350,11 @@ const StyledSkillPill = styled.div`
     flex-shrink: 0;
 
     @media (max-width: 768px) {
-      margin-right: 2px;
+      margin-right: 6px;
     }
 
     @media (max-width: 480px) {
-      margin-right: 2px;
+      margin-right: 8px;
     }
 
     svg {
@@ -360,13 +362,13 @@ const StyledSkillPill = styled.div`
       height: 26px;
 
       @media (max-width: 768px) {
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
       }
 
       @media (max-width: 480px) {
-        width: 16px;
-        height: 16px;
+        width: 26px;
+        height: 26px;
       }
     }
   }
@@ -386,15 +388,15 @@ const StyledSkillPill = styled.div`
     flex-shrink: 0;
 
     @media (max-width: 768px) {
-      width: 24px;
-      height: 24px;
-      margin-left: 2px;
+      width: 32px;
+      height: 32px;
+      margin-left: 4px;
     }
 
     @media (max-width: 480px) {
-      width: 22px;
-      height: 22px;
-      margin-left: 2px;
+      width: 36px;
+      height: 36px;
+      margin-left: 6px;
     }
 
     /* Touch devices */
@@ -410,13 +412,13 @@ const StyledSkillPill = styled.div`
       height: 20px;
 
       @media (max-width: 768px) {
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
       }
 
       @media (max-width: 480px) {
-        width: 16px;
-        height: 16px;
+        width: 22px;
+        height: 22px;
       }
     }
   }
