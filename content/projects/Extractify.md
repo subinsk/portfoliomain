@@ -4,11 +4,13 @@ title: 'Extractify'
 github: 'https://github.com/ML9-FORCES/extractify-frontend'
 external: 'https://extractifynow.netlify.app/'
 tech:
-  - ReactJS
+  - React
   - Canvas
   - Flask
-  - BERT Classifier Model
+  - BERT
   - Tensorflow
+  - Node.js
+  - Javascript
 company: 'ML9-FORCES'
 showInProjects: true
 ---

@@ -13,3 +13,5 @@ url: 'https://www.cypherock.com/'
 - Integrated **Storybook** for components, streamlining the testing process and enhancing component development efficiency, creating interactive documentation for the design system
 - Worked extensively with **Electron** framework to build cross-platform desktop applications, handling **Node.js** backend processes for hardware wallet communication
 - Implemented secure **WebRTC** communication protocols for device pairing and utilized **CSS-in-JS** with **Styled Components** for consistent UI theming
+- Containerized application environments using **Docker** and orchestrated deployments with **Kubernetes**, enabling scalable, consistent, and efficient development workflows across multiple environments
+- Integrated **tRPC** to enable type-safe, end-to-end API communication between the frontend and backend, reducing boilerplate and improving developer productivity

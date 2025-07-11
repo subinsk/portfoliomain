@@ -2,10 +2,13 @@
 date: '2023-08-05'
 title: 'Matrix.io'
 github: 'https://github.com/subinsk/matrixio'
-external: 'https://matrixiocommunity.vercel.app/'
+external: ''
 tech:
-  - ReactJS
-  - SupaBase
+  - React
+  - CSS
+  - Supabase
+  - Node.js
+  - Javascript
 company: 'Personal Project'
 showInProjects: true
 ---

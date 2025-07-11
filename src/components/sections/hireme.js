@@ -539,13 +539,13 @@ const HireMe = () => {
   }, [searchTerm, selectedSkills]);
   const suggestedSkills = [
     'React',
-    'Node.js',
+    'Node',
+    'Next',
     'JavaScript',
     'Python',
     'TypeScript',
     'MongoDB',
     'Express',
-    'AWS',
     'Docker',
   ]
     .map(name => {

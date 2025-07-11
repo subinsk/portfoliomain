@@ -2,12 +2,15 @@
 date: '2023-09-15'
 title: 'Lostrace'
 github: 'https://github.com/ML9-FORCES/Lostrace-Frontend'
-external: 'https://lostrace.vercel.app/'
+external: ''
 tech:
-  - ReactJS
+  - React
   - Flask
+  - CSS
   - Heroku
   - Vercel
+  - Node.js
+  - Javascript
 company: 'ML9-FORCES'
 showInProjects: true
 ---

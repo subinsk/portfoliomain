@@ -6,8 +6,9 @@ external: ''
 tech:
   - Node.js
   - MongoDB
-  - ExpressJS
+  - Express
   - DiscordJS
+  - Javascript
 company: 'Personal Project'
 showInProjects: true
 ---

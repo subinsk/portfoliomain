@@ -2,14 +2,17 @@
 date: '2023-06-10'
 title: 'Classroom-X'
 github: 'https://github.com/Garvit9000c/ML9-FORCES_CLASSROOM-X'
-external: 'https://classroom-x.herokuapp.com/'
+external: ''
 tech:
-  - Tensorflow | BlazeFace
+  - BlazeFace
   - Flask
   - Python
   - MongoDB
-  - Socket.IO
-  - HTML/CSS/JS
+  - Socket.io
+  - Tensorflow
+  - HTML
+  - CSS
+  - Javascript
 company: 'ML9-FORCES'
 showInProjects: true
 ---
